@@ -14,20 +14,20 @@ mqtt_project/
 ├── requirements.txt
 ├── README.md
 
-### Workflow
-#### Client:
+## Workflow
+### Client:
 
 The client emits MQTT messages every second.
 Each message contains a random status value between 0 and 6.
 The message is published to RabbitMQ.
 
-#### Server:
+### Server:
 
 The server listens for incoming MQTT messages from RabbitMQ.
 Each message is processed, and a timestamp is added.
 The message is then stored in MongoDB.
 
-#### API:
+### API:
 
 The API provides an endpoint to retrieve the count of each status within a specified time range.
 A query is made to MongoDB using the provided start and end timestamps.
