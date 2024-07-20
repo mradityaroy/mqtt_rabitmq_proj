@@ -80,6 +80,7 @@ The count of each status is aggregated and returned as a JSON response.
                       +-------------------------------+
                       |   Client (Postman/Browser)    |
                       +-------------------------------+
+
 ## Example Request
 
     GET http://127.0.0.1:5000/status_count?start=START_TIMESTAMP&end=END_TIMESTAMP
