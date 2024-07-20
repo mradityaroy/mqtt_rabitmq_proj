@@ -81,10 +81,10 @@ The count of each status is aggregated and returned as a JSON response.
                       |   Client (Postman/Browser)    |
                       +-------------------------------+
 ## Example Request
-    ```bash
+
     GET http://127.0.0.1:5000/status_count?start=START_TIMESTAMP&end=END_TIMESTAMP
 ### Example
-    ```bash
+    
     GET http://127.0.0.1:5000/status_count?start=1721433676&end=1721433678
 
 ## Note
